@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView android:id="@+id/textView7" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:gravity="center" 
+        android:text="Imagens de Pratos" 
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textColor="#1E90FF" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="________________________________"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+     <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+         <ImageView android:id="@+id/imageView2" 
+             android:layout_width="wrap_content" 
+             android:layout_height="match_parent"
+              android:layout_weight="0.73" 
+              android:onClick="anterior" 
+              android:src="@drawable/navigation_left" />
+
+<ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="166dp"
+            android:layout_height="382dp"
+            android:src="@drawable/ic_launcher" />
+
+<ImageView android:id="@+id/imageView3"
+     android:layout_width="wrap_content"
+      android:layout_height="match_parent" 
+      android:layout_weight="0.74"
+       android:onClick="proximo"
+        android:src="@drawable/navigation_right" />
+
+</LinearLayout>
+
+     <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+<TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:text="Produto"
+           
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout> 
+
+</LinearLayout>
